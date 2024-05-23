@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+#current-image-container {
+    width: 60vw;
+    background-color: #000;
+    color: #fff;
+    margin: 2em auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#image img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.para {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.h1, .heading {
+    padding: 10px 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #444;
+}
+
+#another {
+    width: 60vw;
+    margin: 2em auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#another h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+form input[type="date"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-history li {
+    margin-bottom: 10px;
+}
+
+#search-history a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+#search-history a:hover {
+    color: #0056b3;
+}
